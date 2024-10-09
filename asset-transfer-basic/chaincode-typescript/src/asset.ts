@@ -13,14 +13,14 @@ export class Asset {
     public ID: string = '';
 
     @Property()
-    public Color: string = '';
+    public Timestamp: string = '';
 
     @Property()
-    public Size: number = 0;
+    public Action: string = '';
 
     @Property()
-    public Owner: string = '';
+    public Sensitivity: string = '';
 
     @Property()
-    public AppraisedValue: number = 0;
+    public Status: string = '';
 }
