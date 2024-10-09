@@ -11,7 +11,7 @@ export class Asset {
 
     @Property()
     public ID: string = '';
-
+    
     @Property()
     public Timestamp: string = '';
 
